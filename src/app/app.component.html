@@ -22,7 +22,8 @@
           <i class="icon-menu"></i>
         </a>
         <a>
-          <img class="img-fluid" src="assets/images/logo.png" alt="Theme-Logo" />
+          <!-- <img class="img-fluid" src="assets/images/logo.png" alt="Theme-Logo" /> -->
+          <h3>CAS V2</h3>
         </a>
         <a href="javascript:" class="mobile-options" (click)="toggleHeaderNavRight()">
           <i class="icon-more"></i>
@@ -33,7 +34,7 @@
           <li>
             <div class="sidebar_toggle"><a href="javascript:"><i class="icon-menu"></i></a></div>
           </li>
-          <li class="header-search">
+          <!-- <li class="header-search">
             <div id="main-search" class="main-search morphsearch-search">
               <div class="input-group">
                 <span class="input-group-addon search-close" (click)="searchOff()"><i class="icon-close"></i></span>
@@ -41,15 +42,15 @@
                 <span class="input-group-addon search-btn" (click)="searchOn()"><i class="icon-search"></i></span>
               </div>
             </div>
-          </li>
-          <li appToggleFullScreen>
+          </li> -->
+          <!-- <li appToggleFullScreen>
             <a href="javascript:">
               <i class="icon-fullscreen"></i>
             </a>
-          </li>
+          </li> -->
         </ul>
         <ul [@mobileHeaderNavRight]="navRight" [ngClass]="navRight" class="nav-right">
-          <li (clickOutside)="notificationOutsideClick('live')" class="header-notification" [ngClass]="liveNotificationClass" (click)="toggleLiveNotification()">
+          <!-- <li (clickOutside)="notificationOutsideClick('live')" class="header-notification" [ngClass]="liveNotificationClass" (click)="toggleLiveNotification()">
             <a href="javascript:">
               <i class="icon-bell"></i>
               <span class="badge bg-c-pink"></span>
@@ -90,16 +91,16 @@
                 </div>
               </li>
             </ul>
-          </li>
-          <li class="">
+          </li> -->
+          <!-- <li class="">
             <a href="javascript:" (click)="toggleChat()">
               <i class="icon-comments"></i>
               <span class="badge bg-c-green"></span>
             </a>
-          </li>
+          </li> -->
           <li (clickOutside)="notificationOutsideClick('profile')" class="user-profile header-notification" [ngClass]="profileNotificationClass" (click)="toggleProfileNotification()">
             <a href="javascript:">
-              <img src="assets/images/avatar-4.jpg" class="img-radius" alt="User-Profile-Image">
+              <!-- <img src="assets/images/avatar-4.jpg" class="img-radius" alt="User-Profile-Image"> -->
               <span>John Doe</span>
               <i class="icon-angle-down"></i>
             </a>
